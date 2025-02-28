@@ -32,7 +32,8 @@ platform (for system information)
 socket (for IP address information)
 You can install the required libraries using pip:
 
-![image](https://github.com/user-attachments/assets/5e0d9e8b-65e6-4acf-8bc4-ea9363485c69)
+![image](https://github.com/user-attachments/assets/8fb83ab4-5598-4bd0-8e1b-23cae18cded8)
+
 
 
 Usage
@@ -52,7 +53,8 @@ Running the Program:
 
 Execute keylogger.py in your terminal or command prompt:
 
-![image](https://github.com/user-attachments/assets/7edcf24d-e941-42ea-838c-73ca0fb60626)
+![image](https://github.com/user-attachments/assets/4d45cf97-5dab-47da-b932-b626d93b7fee)
+
 
 
 The script will start recording the user's activity, take periodic screenshots, record audio, and capture clipboard content. The data will be saved locally, encrypted, and sent via email automatically.
@@ -70,7 +72,8 @@ Encryption: The data collected by this tool is encrypted using Fernet to ensure 
 How to Generate an Encryption Key
 To generate your own Fernet encryption key, run the GenerateKey.py script:
 
-![image](https://github.com/user-attachments/assets/61081d56-f953-432e-baf7-f33d323d7adf)
+![image](https://github.com/user-attachments/assets/cd24a70d-8176-4023-bd0f-cdbfde1a6159)
+
 
 
 This will generate a key and save it in the file encryption_key.txt.
@@ -81,7 +84,8 @@ To decrypt the encrypted log files, use the DecryptFile.py script. The following
 Open the DecryptFile.py file and set the correct decryption key.
 Run the script:
 
-![image](https://github.com/user-attachments/assets/06c22c85-2bb8-4d7b-9920-36680b248b93)
+![Screenshot 2025-02-28 061806](https://github.com/user-attachments/assets/293bf196-24a0-46fe-8375-6b80fd157fcc)
+
 
 
 The encrypted files (e_key_log.txt, e_systeminfo.txt, e_clipboard.txt) will be decrypted and saved in the same directory.
