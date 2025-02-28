@@ -1,10 +1,12 @@
 # Advanced_Keylogger
 Overview
+
 The Advanced Keylogger with System Monitoring and Encryption is a Python-based project designed to monitor and collect user activity, system data, clipboard content, and audio recordings for cybersecurity research and ethical hacking purposes. The project also integrates Fernet encryption to secure collected data and an email reporting system to send encrypted log files to authorized recipients.
 
 Important Note: This project is intended for ethical hacking and cybersecurity research only. It should not be used for illegal activities. Make sure you have permission to use it on any systems.
 
 Features
+
 Keylogging: Captures every keystroke made by the user.
 System Monitoring: Collects system information such as:
 Hostname, IP addresses (both public and private)
@@ -16,6 +18,7 @@ Data Encryption: Uses Fernet encryption to secure sensitive log data.
 Automated Reporting: Sends encrypted data files via email to a designated address.
 File Cleanup: Automatically deletes logs and screenshots after the data has been sent.
 Prerequisites
+
 Before using the project, ensure you have the following dependencies installed:
 
 Python 3.x
@@ -37,6 +40,7 @@ You can install the required libraries using pip:
 
 
 Usage
+
 Setting up the project:
 
 Clone or download the repository to your local machine.
@@ -66,6 +70,7 @@ Data Encryption:
 The collected data (e.g., system info, key logs, clipboard content) will be encrypted using the provided Fernet encryption key.
 You can decrypt the files using the DecryptFile.py script.
 Important Notes
+
 Ethical Use Only: This tool is intended for educational, ethical hacking, and cybersecurity research purposes only. Do not use it on unauthorized systems.
 Email Security: This script uses Gmail’s SMTP server for sending emails. Make sure to enable "Less Secure Apps" or use an App Password if 2FA is enabled.
 Encryption: The data collected by this tool is encrypted using Fernet to ensure privacy and security. Only the correct decryption key can unlock the data.
@@ -79,6 +84,7 @@ To generate your own Fernet encryption key, run the GenerateKey.py script:
 This will generate a key and save it in the file encryption_key.txt.
 
 How to Decrypt Files
+
 To decrypt the encrypted log files, use the DecryptFile.py script. The following example shows how to decrypt the encrypted files:
 
 Open the DecryptFile.py file and set the correct decryption key.
@@ -91,16 +97,20 @@ Run the script:
 The encrypted files (e_key_log.txt, e_systeminfo.txt, e_clipboard.txt) will be decrypted and saved in the same directory.
 
 Contributing
+
 If you'd like to contribute to the project, please follow these steps:
 
 Fork the repository.
+
 Create a new branch (git checkout -b feature-name).
 Commit your changes (git commit -am 'Add new feature').
 Push to the branch (git push origin feature-name).
 Create a pull request.
 License
+
 This project is open-source and available under the MIT License.
 
 Disclaimer
+
 This tool is intended strictly for educational purposes. Misuse of this tool for unauthorized access or malicious activities is illegal. The author assumes no responsibility for the misuse of this project. Always ensure that you have explicit permission before testing or deploying this software.
 
