@@ -43,18 +43,18 @@ microphone_time = 10
 time_iteration = 15
 number_of_iterations_end = 3
 
-email_address = "vinaykumarg8090@gmail.com"
-password = "zslc fzit hvhs koyt"
+email_address = "gmail_id"
+password = "password_generated_by_google"
 
 username = getpass.getuser()
 
 
 
-toaddr = "vinaykumarg8090@gmail.com"
+toaddr = "gmail_id"
 
-key = "M3ySo5VU5kNP9KJQLw4b0yQVPCH-kg-vJTNx6TTbkIw="
+key = "key"
 
-file_path = "C:\\Users\\ganna\\PycharmProjects\\keylogger\\project"
+file_path = "path_of_this_folder"
 extend = "\\"
 file_merge = file_path + extend
 
